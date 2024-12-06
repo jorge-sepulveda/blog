@@ -9,30 +9,39 @@
     <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making a blog for the third time</title>
-      <link>//localhost:1313/posts/2024-12-06/</link>
+      <link>//localhost:1313/posts/third-website/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/2024-12-06/</guid>
-      <description>&lt;h1 id=&#34;time-to-make-a-third-blog&#34;&gt;Time to make a third blog&lt;/h1&gt;
+      <guid>//localhost:1313/posts/third-website/</guid>
+      <description>&lt;h1 id=&#34;third-times-the-charm&#34;&gt;Third time&amp;rsquo;s the charm&lt;/h1&gt;
 &lt;p&gt;I have begun my journey of making a blog for the third time. My previous attempts we&amp;rsquo;re unsuccessful.&lt;/p&gt;
 &lt;h2 id=&#34;the-first-attempt&#34;&gt;The first attempt&lt;/h2&gt;
 &lt;p&gt;My very first attempt was a simple site done with HTML and CSS. This must&amp;rsquo;ve been during high school for a class assignment and quickly forgot about it.&lt;/p&gt;
 &lt;p&gt;When I was moving from Texas to Phoenix, I found my old stash of hard drives and thought, &amp;ldquo;Hey, I should plug these in and cruise down memory lane!&amp;rdquo; It was perfect as I had found a great opportunity to procastinate packing.&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;time-to-make-a-third-blog&#34;&gt;Time to make a third blog&lt;/h1&gt;
+      <content>&lt;h1 id=&#34;third-times-the-charm&#34;&gt;Third time&amp;rsquo;s the charm&lt;/h1&gt;
 &lt;p&gt;I have begun my journey of making a blog for the third time. My previous attempts we&amp;rsquo;re unsuccessful.&lt;/p&gt;
 &lt;h2 id=&#34;the-first-attempt&#34;&gt;The first attempt&lt;/h2&gt;
 &lt;p&gt;My very first attempt was a simple site done with HTML and CSS. This must&amp;rsquo;ve been during high school for a class assignment and quickly forgot about it.&lt;/p&gt;
 &lt;p&gt;When I was moving from Texas to Phoenix, I found my old stash of hard drives and thought, &amp;ldquo;Hey, I should plug these in and cruise down memory lane!&amp;rdquo; It was perfect as I had found a great opportunity to procastinate packing.&lt;/p&gt;
 &lt;p&gt;I found the site and didn&amp;rsquo;t do anything, I just left it in the same flash drive&amp;hellip;which may have been lost by this point. Pour one out for the lost bits of my first website.&lt;/p&gt;
+&lt;h2 id=&#34;docker-ifying-the-second-attempt&#34;&gt;Docker-ifying the second attempt&lt;/h2&gt;
+&lt;p&gt;Sometime last year, I tried making the same thing with HTML and CSS and was pretty happy with the design. The color scheme of this site was similar to the CSS file I had written.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t know why but for some reason, I attempted to put the site in a docker container. I got the whole thing going but then I realized Github Pages won&amp;rsquo;t host it and I wasn&amp;rsquo;t looking to pay the 10-15 required dollars a month to host it elsewhere. Maintaining it didn&amp;rsquo;t sound too hard but laziness consumes me so I didn&amp;rsquo;t see myself committing to that. Remember: It pays to do research!&lt;/p&gt;
+&lt;h2 id=&#34;fast-forward-to-the-third-attempt&#34;&gt;Fast Forward to the third attempt&lt;/h2&gt;
+&lt;p&gt;I was browsing NetworkChuck&amp;rsquo;s videos and he made a tutorial with Hugo and Markdown. This was perfect for me as I use Markdown A TON and the maintenance would be updating a git submodule every once in a while. I followed his tutorial except for the Obsidian stuff, another tutorial on hosting a Hugo site to Github Pages and Voila!&lt;/p&gt;
+&lt;p&gt;A nice terminal theme where I can post my markdown files and host it on Github Pages for the acceptable price of 0 dollars a month.&lt;/p&gt;
+&lt;p&gt;The only modification I needed to make from hugo was this container size. It was only 800 ish pixels long so I removed that to make use of the screen&amp;rsquo;s real estate. Mobile friendly too!&lt;/p&gt;
+&lt;p&gt;All that&amp;rsquo;s next is to finally christen this site with a domain name. I have been paying for my name.dev for 3 years(funny how I was ok with paying for that but fuggedabout hosting fees)&lt;/p&gt;
+&lt;p&gt;I think now is the time to learn how to slap my name on the interwebs.&lt;/p&gt;
 </content>
     </item>
     
     <item>
       <title>We&#39;re making a Dev Blog Too!</title>
-      <link>//localhost:1313/devblog/2024-12-06/</link>
+      <link>//localhost:1313/devblog/dev-blog-intro/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/devblog/2024-12-06/</guid>
+      <guid>//localhost:1313/devblog/dev-blog-intro/</guid>
       <description>&lt;p&gt;While making the blog(for the third time of course) I&amp;rsquo;ve decided to separate any blog posts made with coding here on this blog.&lt;/p&gt;
 &lt;p&gt;I must say, I sometimes have the attention span of a squirrel and will randomly learn new things from all the languages or libraries that I play with. I&amp;rsquo;m sure to have fights with Hugo but I will win them and posts about.&lt;/p&gt;</description>
       <content>&lt;p&gt;While making the blog(for the third time of course) I&amp;rsquo;ve decided to separate any blog posts made with coding here on this blog.&lt;/p&gt;
@@ -43,7 +52,7 @@
     <item>
       <title>About Me</title>
       <link>//localhost:1313/about/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/about/</guid>
       <description>&lt;h1 id=&#34;welcome-to-jorge-sepulvedas-site&#34;&gt;Welcome to Jorge Sepulveda&amp;rsquo;s Site&lt;/h1&gt;

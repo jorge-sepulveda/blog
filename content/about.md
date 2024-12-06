@@ -1,9 +1,6 @@
 +++
 title = "About Me"
-date = "2019-01-25"
-author = "Jorge"
 +++
-
 
 # Welcome to Jorge Sepulveda's Site
 
