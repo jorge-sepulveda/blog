@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jorge Sepulveda</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Jorge Sepulveda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a blog for the third time</title>
+      <link>//localhost:1313/posts/2024-12-06/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2024-12-06/</guid>
+      <description>&lt;h1 id=&#34;time-to-make-a-third-blog&#34;&gt;Time to make a third blog&lt;/h1&gt;
+&lt;p&gt;I have begun my journey of making a blog for the third time. My previous attempts we&amp;rsquo;re unsuccessful.&lt;/p&gt;
+&lt;h2 id=&#34;the-first-attempt&#34;&gt;The first attempt&lt;/h2&gt;
+&lt;p&gt;My very first attempt was a simple site done with HTML and CSS. This must&amp;rsquo;ve been during high school for a class assignment and quickly forgot about it.&lt;/p&gt;
+&lt;p&gt;When I was moving from Texas to Phoenix, I found my old stash of hard drives and thought, &amp;ldquo;Hey, I should plug these in and cruise down memory lane!&amp;rdquo; It was perfect as I had found a great opportunity to procastinate packing.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;time-to-make-a-third-blog&#34;&gt;Time to make a third blog&lt;/h1&gt;
+&lt;p&gt;I have begun my journey of making a blog for the third time. My previous attempts we&amp;rsquo;re unsuccessful.&lt;/p&gt;
+&lt;h2 id=&#34;the-first-attempt&#34;&gt;The first attempt&lt;/h2&gt;
+&lt;p&gt;My very first attempt was a simple site done with HTML and CSS. This must&amp;rsquo;ve been during high school for a class assignment and quickly forgot about it.&lt;/p&gt;
+&lt;p&gt;When I was moving from Texas to Phoenix, I found my old stash of hard drives and thought, &amp;ldquo;Hey, I should plug these in and cruise down memory lane!&amp;rdquo; It was perfect as I had found a great opportunity to procastinate packing.&lt;/p&gt;
+&lt;p&gt;I found the site and didn&amp;rsquo;t do anything, I just left it in the same flash drive&amp;hellip;which may have been lost by this point. Pour one out for the lost bits of my first website.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>We&#39;re making a Dev Blog Too!</title>
+      <link>//localhost:1313/devblog/2024-12-06/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/devblog/2024-12-06/</guid>
+      <description>&lt;p&gt;While making the blog(for the third time of course) I&amp;rsquo;ve decided to separate any blog posts made with coding here on this blog.&lt;/p&gt;
+&lt;p&gt;I must say, I sometimes have the attention span of a squirrel and will randomly learn new things from all the languages or libraries that I play with. I&amp;rsquo;m sure to have fights with Hugo but I will win them and posts about.&lt;/p&gt;</description>
+      <content>&lt;p&gt;While making the blog(for the third time of course) I&amp;rsquo;ve decided to separate any blog posts made with coding here on this blog.&lt;/p&gt;
+&lt;p&gt;I must say, I sometimes have the attention span of a squirrel and will randomly learn new things from all the languages or libraries that I play with. I&amp;rsquo;m sure to have fights with Hugo but I will win them and posts about.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-jorge-sepulvedas-site&#34;&gt;Welcome to Jorge Sepulveda&amp;rsquo;s Site&lt;/h1&gt;
+&lt;p&gt;Howdy!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m Jorge Sepulveda and I&amp;rsquo;m currently a sysadmin for BXG systems, a control systems integrator in Oil and Gas.&lt;/p&gt;
+&lt;p&gt;Previously, I used to work at American Express as a backend developer, contributing and maintaining the payment network, all the magic that happens while swiping your card at stores.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;welcome-to-jorge-sepulvedas-site&#34;&gt;Welcome to Jorge Sepulveda&amp;rsquo;s Site&lt;/h1&gt;
+&lt;p&gt;Howdy!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m Jorge Sepulveda and I&amp;rsquo;m currently a sysadmin for BXG systems, a control systems integrator in Oil and Gas.&lt;/p&gt;
+&lt;p&gt;Previously, I used to work at American Express as a backend developer, contributing and maintaining the payment network, all the magic that happens while swiping your card at stores.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Showcase</title>
+      <link>//localhost:1313/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/showcase/</guid>
+      <description>&lt;p&gt;Currently a WIP, I&amp;rsquo;m gonna put some repositories from GitHub on here.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Currently a WIP, I&amp;rsquo;m gonna put some repositories from GitHub on here.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
