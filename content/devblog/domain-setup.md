@@ -40,13 +40,13 @@ I've mentioned in my [previous blog post](dev-blog-intro.md) that I will fight H
 
 It didn't take me long to find out that Github is serving the local public/ folder that I added to the repo. GH Pages will generate a public folder and send that to the domain.
 
-This was a quick fix. I added public/ to my .gitignore and removed the folder from being tracked entirely using
+This was a quick fix. I added public/ to my .gitignore and removed the folder from being tracked entirely using.
 
 ```
 git rm -r --cached public/
 ```
 
-We are back in business and the jorgesepulveda.dev is now alive!(insert any fun quote from Mary Shelley's novels)
+We are back in business and the jorgesepulveda.dev is now alive!(insert any fun quote from Mary Shelley's novels). Didn't even have to wait multiple days for the DNS checks.
 
 
 I hope this serves as a good tutorial for anyone who wants to bring their site from Github Pages to their domain!

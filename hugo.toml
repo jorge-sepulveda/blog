@@ -10,6 +10,17 @@ paginate = 5
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
+
+[params.blog1]
+    paginate = 5
+    section = "blog"
+    url = "/blog/"  # Custom URL path for blog1
+
+  [params.blog2]
+    paginate = 5
+    section = "devblog"
+    url = "/devblog/"  # Custom URL path for blog2
+
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 5
 
