@@ -1,7 +1,8 @@
 +++
 title = "Making a blog for the third time"
-date = 2024-12-06
+date = 2024-12-06T17:26:37-06:00
 draft = false
+tags = ["Hugo", "Blog"]
 +++
 
 # Third time's the charm

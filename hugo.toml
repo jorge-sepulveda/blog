@@ -10,17 +10,6 @@ paginate = 5
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
-
-[params.blog1]
-    paginate = 5
-    section = "blog"
-    url = "/blog/"  # Custom URL path for blog1
-
-  [params.blog2]
-    paginate = 5
-    section = "devblog"
-    url = "/devblog/"  # Custom URL path for blog2
-
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 5
 
@@ -28,10 +17,10 @@ paginate = 5
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
 
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
@@ -99,14 +88,14 @@ paginate = 5
           name = "Blog"
           url = "/"
         [[languages.en.menu.main]]
-          identifier = "devblog"
-          name = "DevBlog"
-          url = "/devblog"
-        [[languages.en.menu.main]]
-          identifier = "sysadminblog"
-          name = "SysAdminBlog"
-          url = "/sysadminblog"
-        [[languages.en.menu.main]]
           identifier = "showcase"
           name = "Showcase"
           url = "/showcase"
+        [[languages.en.menu.main]]
+          name = "SysAdmin"
+          url = "/tags/sysadmin"
+        [[languages.en.menu.main]]
+          name = "Dev"
+          url = "/tags/dev"
+
+

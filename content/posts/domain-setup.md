@@ -1,6 +1,7 @@
 +++
 title = "Registering the blog to my domain"
-date = 2024-12-07
+date = 2024-12-07T14:26:30-06:00
+tags = ["Github", "Dev"]
 draft = false
 +++
 

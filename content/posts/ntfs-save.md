@@ -1,7 +1,8 @@
 +++
 title = "NTFS saves the day"
-date = 2024-12-07
+date = 2024-12-07T11:30:45-06:00
 draft = false
+tags = ["SysAdmin"]
 +++
 
 # Gotta love flash drive formatting
@@ -10,7 +11,7 @@ Earlier at site this week, we found that it is faster to put files in a USB stic
 
 The network connection is reliable but transferring files over the network can take time, especially if we are taking it from Virtual Machines.
 
-I have a kit of 7 flash drives and some USB C adapters for any newer devices.
+I have a kit of 7 flash drives and some USB C adapters for any newer devices. I have over 512GB's of pure firepower stored in an bag with USB 3.2,3.1, and 2.0 drives.
 
 Then a serious situation came down.
 
