@@ -6,13 +6,13 @@
     <description>Recent content on Jorge Sepulveda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Dec 2024 11:20:20 -0600</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NTFS saves the day</title>
-      <link>//localhost:1313/posts/ntfs-save/</link>
+      <link>//localhost:1313/sysadminblog/ntfs-save/</link>
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/ntfs-save/</guid>
+      <guid>//localhost:1313/sysadminblog/ntfs-save/</guid>
       <description>&lt;h1 id=&#34;gotta-love-flash-drive-formatting&#34;&gt;Gotta love flash drive formatting&lt;/h1&gt;
 &lt;p&gt;Earlier at site this week, we found that it is faster to put files in a USB stick and DRIVE over to the computer where we need the files.&lt;/p&gt;
 &lt;p&gt;The network connection is reliable but transferring files over the network can take time, especially if we are taking it from Virtual Machines.&lt;/p&gt;

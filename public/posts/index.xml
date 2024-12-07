@@ -6,48 +6,7 @@
     <description>Recent content in Posts on Jorge Sepulveda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>NTFS saves the day`</title>
-      <link>//localhost:1313/posts/ntfs-save/</link>
-      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/ntfs-save/</guid>
-      <description>&lt;h1 id=&#34;gotta-love-flash-drive-formatting&#34;&gt;Gotta love flash drive formatting&lt;/h1&gt;
-&lt;p&gt;Earlier at site this week, we found that it is faster to put files in a USB stick and DRIVE over to the computer where we need the files.&lt;/p&gt;
-&lt;p&gt;The network connection is reliable but transferring files over the network can take time, especially if we are taking it from Virtual Machines.&lt;/p&gt;
-&lt;p&gt;I have a kit of 7 flash drives and some USB C adapters for any newer devices.&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;gotta-love-flash-drive-formatting&#34;&gt;Gotta love flash drive formatting&lt;/h1&gt;
-&lt;p&gt;Earlier at site this week, we found that it is faster to put files in a USB stick and DRIVE over to the computer where we need the files.&lt;/p&gt;
-&lt;p&gt;The network connection is reliable but transferring files over the network can take time, especially if we are taking it from Virtual Machines.&lt;/p&gt;
-&lt;p&gt;I have a kit of 7 flash drives and some USB C adapters for any newer devices.&lt;/p&gt;
-&lt;p&gt;Then a serious situation came down.&lt;/p&gt;
-&lt;p&gt;My colleague needed to move a file from a PC on the network to his laptop, I lent him my kit and he drove off.&lt;/p&gt;
-&lt;p&gt;15 minutes later he calls me saying that none of the flash drives are working. It was a 5GB file.&lt;/p&gt;
-&lt;p&gt;The exxagerated conversation followed:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;ldquo;This is what you are gonna do, you are gonna grab the green drive and format it to NTFS.&amp;rdquo;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;ldquo;I don&amp;rsquo;t know want to delete your files.&amp;rdquo;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;ldquo;Don&amp;rsquo;t worry about the files! We need this data!&amp;quot;(I knew there was no data on the green drive)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;ldquo;The file is now transferring&amp;rdquo;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Crisis averted. We got the files in the drive and NTFS saved the day for having to wait eons for files to transfer on the network&lt;/p&gt;
-&lt;h2 id=&#34;fat32ntfs&#34;&gt;FAT32/NTFS&lt;/h2&gt;
-&lt;p&gt;FAT32 is an older file system format, popularly used by flash drives and almost every device can read that format.&lt;/p&gt;
-&lt;p&gt;The pickle here is that since it&amp;rsquo;s 32 bit, you cannot transfer files larger than 4 GB. That&amp;rsquo;s usually not a problem until you need a monster installer file.&lt;/p&gt;
-&lt;p&gt;NTFS resolves that, not being limited to 32 bit or 64 bit systems, it can scale up and transfer any size files.&lt;/p&gt;
-&lt;p&gt;Next time you need huge data files transferred on your drives, NTFS might save you as it did us.&lt;/p&gt;
-</content>
-    </item>
-    
+    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making a blog for the third time</title>
       <link>//localhost:1313/posts/third-website/</link>
