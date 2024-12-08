@@ -9,7 +9,7 @@ tags = ["SysAdmin"]
 
 Earlier at site this week, we found that it is faster to put files in a USB stick and DRIVE over to the computer where we need the files.
 
-The network connection is reliable but transferring files over the network can take time, especially if we are taking it from Virtual Machines.
+The network connection is reliable but transferring files over the network can take time, especially if we are transferring it from Virtual Machines to the local PCs.
 
 I have a kit of 7 flash drives and some USB C adapters for any newer devices. I have over 512GB's of pure firepower stored in an bag with USB 3.2,3.1, and 2.0 drives.
 
@@ -21,9 +21,9 @@ My colleague needed to move a file from a PC on the network to his laptop, I len
 
 The exxagerated conversation followed:
 
-- "This is what you are gonna do, you are gonna grab the green drive and format it to NTFS."
+- "This is what you are gonna do, grab the green drive and format it to NTFS."
 
-- "I don't know want to delete your files."
+- "I don't want to delete your files."
 
 - "Don't worry about the files! We need this data!"(I knew there was no data on the green drive)
 
