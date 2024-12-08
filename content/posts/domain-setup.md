@@ -33,7 +33,7 @@ Now in the repo settings under Pages, we'll add the custom domain. Github will d
 
 ### The dismantling of my beautiful creation
 
-I've mentioned in my [previous blog post](dev-blog-intro.md) that I will fight Hugo sometimes, and they picked the wrong guy. After registering my site, the theme completely dissapeared and I'm left with this. Look how they massacred my boy!
+Having a blog where I can describe my battles with tech is awesome. Github picked a fight, and they picked the wrong guy. After registering my site, the theme completely dissapeared and I'm left with this. Look how they massacred my boy!
 
 ![ohno](/img/broken-page.png)
 
