@@ -11,7 +11,7 @@ Time, one of our most precious resources and what I believe to be a computers wo
 
 When I worked at American Express, one of the biggest challenges of a real time payment system is keeping track of all the different time zones and daylight savings times.
 
-I proposed scrapping all of that and moving everything to UTC with Unix Nanoseconds, the best way for computers to keep track of time. I was met with Silence in the room and meeting moved on but I stand by what I said!
+I proposed scrapping all of that and moving everything to UTC with Unix Nanoseconds, the best way for computers to keep track of time. I was met with silence in the room and the meeting moved on but I stand by what I said!
 
 Today, my current time pickle was timestamping these blog posts. I couldn't rely on `yyyy-mm-dd` anymore because that won't work on files with the same date. 
 

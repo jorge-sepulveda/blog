@@ -49,5 +49,7 @@ git rm -r --cached public/
 
 We are back in business and the jorgesepulveda.dev is now alive!(insert any fun quote from Mary Shelley's novels). Didn't even have to wait multiple days for the DNS checks.
 
+Another nice thing I don't have to worry about are certificates. Github Pages handles all that for me so less work for me. I've only used LetsEncrypt a couple of times but ask me how many times I've renewed them? That's right, none. Thanks Microsoft!
+
 
 I hope this serves as a good tutorial for anyone who wants to bring their site from Github Pages to their domain!
