@@ -32,12 +32,12 @@ The service rolls for a weapon, saves/loads from a json and you can make an excl
 
 Easy to use, extensive documentation and even cross compatible. I can easily port this to Windows and make a Web App!
 
-{{<image src="/img/re4.png" alt="200 hours, there I said it." width="700px" position="center">}}
+{{<image src="/img/re4new.png" width="700px" position="center">}}
 
 
 ## Research Paper
 
-Link to ISPRS Archives: 
+Link to ISPRS Archives: https://isprs-archives.copernicus.org/articles/XLIV-M-2-2020/95/2020/
 
 In 2019 I was taking a Global Navigation Satellite System(GNSS) class I leaded my team ambitious project. My teammate had access to caves and we explored if we can 3D map a cave. Turns out, it is possible!
 
@@ -54,4 +54,3 @@ Our paper was later submitted to the International Society for Photogrammetry an
 {{<image src="/img/fig1.png" width="700px" position="center">}}
 {{<image src="/img/fig2.png" width="700px" position="center">}}
 {{<image src="/img/fig3.png" width="700px" position="center">}}
-
