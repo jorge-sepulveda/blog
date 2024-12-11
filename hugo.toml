@@ -80,7 +80,7 @@ paginate = 5
       [languages.en.menu]
         [[languages.en.menu.main]]
           identifier = "about"
-          name = "About"
+          name = "About Me"
           url = "/about"
 
         [[languages.en.menu.main]]
@@ -89,7 +89,7 @@ paginate = 5
           url = "/"
         [[languages.en.menu.main]]
           identifier = "showcase"
-          name = "Showcase"
+          name = "Portfolio"
           url = "/showcase"
         [[languages.en.menu.main]]
           name = "SysAdmin"

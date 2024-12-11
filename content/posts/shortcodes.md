@@ -51,11 +51,8 @@ We create our little section below. I have a div using flex to display the image
 ```
 Afterwards, we go back to markdown and the shortcode in here.
 
-```
-{{<floatimage src="/img/snippet.png" alt="alt-text">}}
-I can't put the snippet because Hugo will render it, but this is what I'm going for.
-{{< /floatimage >}}
-```
+
+{{<image src="/img/fail.png" alt="200 hours, there I said it." position="center">}}
 
 And that's pretty much it!Still needs parameters and I know this is a lot of flex magic going on so I *should* put this in a CSS file, but that will be for a different time. Tonight I'll bask in the victory of figuring out some shortcodes.
 
