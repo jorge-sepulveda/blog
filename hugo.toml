@@ -35,7 +35,7 @@ paginate = 5
   # updatedDatePrefix = "Updated"
 
   # whether to show a page's estimated reading time
-  # readingTime = false # default
+   readingTime = true # default
 
   # whether to show a table of contents
   # can be overridden in a page's front-matter
@@ -51,7 +51,7 @@ paginate = 5
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
   creator = "Jorge Sepulveda"
-  site = "Jorge Sepulveda's Personal Website"
+  site = "Jorge Sepulveda"
 
 [languages]
   [languages.en]
@@ -59,8 +59,8 @@ paginate = 5
     title = "Jorge Sepulveda"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
-      owner = ""
+      subtitle = "Jorge Sepulveda's Personal Website"
+      owner = "Jorge Sepulveda"
       keywords = ""
       copyright = ""
       menuMore = "Show more"
