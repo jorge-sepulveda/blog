@@ -13,8 +13,7 @@ Previously, I worked at American Express as a backend developer contributing and
 I have a B.A in Computing from Texas A&M University with a specialization in Geographic Information Systems(GIS). To summarize that, I'm a big nerd who likes maps. 
 
 Quick Links:
-
-- [LinkedIn](https://www.linkedin.com/in/jorgesepulveda/)
+- {{<link href="https://www.linkedin.com/in/jorgesepulveda/">}}LinkedIn{{</link>}}
 - [Portfolio](./showcase.md)
 - [Blog](./posts/)
 - [Dev Blog](./tags/dev)

@@ -35,4 +35,4 @@ All that's next is to finally christen this site with a domain name. I have been
 
 I think now is the time to learn how to slap my name on the interwebs.
 
-I'll share the link to the video I used for [reference](https://youtu.be/dnE7c0ELEH8?feature=shared). If I can build a website, so can you!
+I'll share the link to the video I used for {{<link href="https://youtu.be/dnE7c0ELEH8?feature=shared">}}reference.{{</link>}}If I can build a website, so can you!
