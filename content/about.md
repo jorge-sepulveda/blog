@@ -19,4 +19,4 @@ Quick Links:
 - [Blog](./posts/)
 - [Dev Blog](./tags/dev)
 - [Sysadmin Blog](./tags/sysadmin)
-- [XML Feed](/index.xml)
+- {{<link href="/index.xml">}}XML Feed{{</link>}}
