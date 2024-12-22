@@ -2,7 +2,7 @@
 date = '2024-12-21T16:31:17-06:00'
 draft = false
 title = 'Time to add buttons to Clay-Bang'
-tags = ["Lua", "Love2D", "GameDev"]
+tags = ["Lua", "Love2D", "GameDev", "Dev"]
 +++
 
 
