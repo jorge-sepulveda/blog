@@ -15,7 +15,7 @@ I have a B.A in Computing from Texas A&M University with a specialization in Geo
 Quick Links:
 - {{<link href="https://www.linkedin.com/in/jorgesepulveda/">}}LinkedIn{{</link>}}
 - {{<link href="https://github.com/jorge-sepulveda">}}Github{{</link>}}
-- [Portfolio](./showcase.md)
+- [Portfolio](./portfolio.md)
 - [Blog](./posts/)
 - [Dev Blog](./tags/dev)
 - [Sysadmin Blog](./tags/sysadmin)
