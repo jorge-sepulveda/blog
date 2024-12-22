@@ -1,5 +1,5 @@
 +++
-title = "Having fun with Rockwell software"
+title = "Having fun with Rockwell's VantagePoint"
 date = "2024-12-22T11:26:38-06:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 tags = ["SysAdmin", "Rockwell"]
