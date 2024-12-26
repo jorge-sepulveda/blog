@@ -41,7 +41,7 @@ Link to ISPRS Archives: https://isprs-archives.copernicus.org/articles/XLIV-M-2-
 
 In 2019 I was taking a Global Navigation Satellite System(GNSS) class I leaded my team ambitious project. My teammate had access to caves and we explored if we can 3D map a cave. Turns out, it is possible!
 
-This took on multiple disciplines, from photogrammetry drone flight paths, structure from motion to make 3d models and LIDAR Point Clouds. 
+This took on multiple disciplines: photogrammetry, drone flight paths, structure from motion to make 3d models and LIDAR Point Clouds. 
 
 With our learnings, we went underground and took pictures of both sides of the cave and later converted them to point clouds.
 
