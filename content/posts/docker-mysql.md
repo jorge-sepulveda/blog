@@ -38,23 +38,24 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: playground
 ```
 
-The container will use the mysql image we pulled earlier and the database will be named... database. I set restart to always so it always tries to restart even if it has issues(what could go wrong?) MySQL provides a lot of environment variables so I will be using `MYSQL_ROOT_PASSWORD` to set the root password for access. 
+The container will use the mysql image we pulled earlier and the database will be named... database. I set restart to always so it always tries to restart even if it has issues(what could go wrong?) MySQL provides a lot of environment variables so I will be using `MYSQL_ROOT_PASSWORD` to set the root password for access. I also want to create a database called `playground` so I'm adding that env var as well. 
 
-Once this file is created, you can go to the folder where this file exists and run with `docker compose up`. This will pipe you into the container and it will start up MySQL. This specific command will hold your terminal hostage until you ctrl+c. I prefer running in detached mode using `-d` at the end so I can keep typing away. 
+Once this file is created, you can go to the folder where this file exists and run with `docker compose up`. This will pipe you into the container and it will start up MySQL. This specific command will hold your terminal hostage until you ctrl+c and it will stop the container. I prefer running in detached mode using `-d` at the end so I can keep typing away. 
 
 Another handy command is `docker ps`, which will show you the running containers in your system. If you're following this tutorial you'll see `database` running. 
 
 ## Get in the database
 
-Once docker is running, we can access the container and run mysql with
+Once docker is running, we can access the container and run mysql with.
 
 ```bash
-docker exec -it database mysql -u root -p
+docker exec -it database mysql -uroot -pexample playground
 ```
 
-Type in the password you set in the environment variable and you are good to go! You now have access to a tiny MySQL database which can be used on it's own or with small projects. There are ways to preload a database with tables and keep data persistent which can be found in the docs. 
+This will put you in the container and straight to your database! You now have access to a tiny MySQL database which can be used on it's own or with small projects. There are ways to preload a database with tables and keep data persistent which can be found in the docs. 
 
 ## Let's put this in a makefile
 
@@ -65,14 +66,20 @@ run:
 	docker compose up -d
 
 stop:
-	docker compose down
+	docker compose down --volumes
 
 connect:
-	docker exec -it database mysql -u root -p
+  docker exec -it database mysql -uroot -pexample playground
 ```
 
 Now everything can be ran or stopped with `make run` and `make stop`. I can also connect to the database with `make connect`, shaving valuable seconds of typing. All is good with the world and I have a database container. 
 
-If you haven't used makefiles, use them! I have them in several repos and might make another post about that in the future. I'll finish this post with a relevant xkcd on containers.
+If you haven't used makefiles, use them! I have them in several repos and might make another post about that in the future. 
+
+## Big disclaimer
+
+This is by no means secure. I'm using root, storing those passwords in plain text and the terminal commands have it as well. This works for me because this database will never talk to the outside world and it will never contain data as I delete the volumes. When the time comes to bring something like this to the interwebs, I recommend Vault or Docker Swarm for managing secrets like database passwords.
+
+It's de jure that there's a relevant xkcd for anything and I will share this one about Docker to finish. 
 
 ![All services are microservices if you ignore most of their features.](https://imgs.xkcd.com/comics/containers.png)
