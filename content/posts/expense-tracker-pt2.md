@@ -22,7 +22,7 @@ We'll initialize the connector for the database. DuckDB will find the file or it
 
 Now, one thing that DuckDB does different is auto incrementing keys as we are so familiar with in SQL. DuckDB does Sequences where you can set a number and increment it by a certain amount. We'll create the sequence, add it as a column for the record ID and then any insertions will just count this sequence. 
 
-We'll use the same columns I defined in the previous post. 
+We'll use the same columns I defined in the previous post. I also added a `card` column to know which card the transaction is from. I'm using `blue` and `free` as some codenames for my cards so it can be whatever you want in 10 characters. 
 
 ```python
 conn = duckdb.connect("mydb.duckdb")
