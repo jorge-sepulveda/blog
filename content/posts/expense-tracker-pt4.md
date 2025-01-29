@@ -130,3 +130,7 @@ ducky.disconnect()
 ```
 
 The code is looking a lot cleaner and we'll proceed with putting the credit card logic in it's own class as well. We'll follow up from the previous post where we saw the duplicate logic. 
+
+If you want to keep up with the repos development alongside the blog, I have now shared the repository on Github! You can fork it or make pull requests to add your own card CSV's!
+
+- {{<link href="https://github.com/jorge-sepulveda/py-expenses">}}https://github.com/jorge-sepulveda/py-expenses{{</link>}}
