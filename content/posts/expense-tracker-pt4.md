@@ -1,5 +1,5 @@
 +++
-title = "Expense Tracker Pt4"
+title = "Expense Tracker Pt. 4"
 date = "2025-01-29T12:05:39-06:00"
 tags = ["Dev", "Python", "DuckDB"]
 +++
