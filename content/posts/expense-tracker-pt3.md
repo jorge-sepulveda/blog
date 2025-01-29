@@ -2,7 +2,7 @@
 title = "Expense Tracker Pt. 3"
 date = "2025-01-28T09:57:08-06:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-tags = ["Dev", "Python", "Pandas", "DuckDB"]
+tags = ["Dev", "Python", "Pandas", "DuckDB", "Faker"]
 +++
 
 # Parsing Chase Files and generating fake data

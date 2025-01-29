@@ -39,7 +39,7 @@ Date is well, the date I swiped the card. Description is going to be the busines
 
 With this in mind, I want to have two tables. One for credit card transactions and one for my Checking account. I can correlate statement payments back to Checking and come up with more read queries as I go. Here's the initial table design for Credit. 
 
-```SQL
+```
 CREATE TABLE Credit (
     id INTEGER PRIMARY KEY DEFAULT nextval('credit_id_seq'),
     statement_date DATE NOT NULL,
