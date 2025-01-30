@@ -7,7 +7,7 @@ tags = ["Dev", "Python", "DuckDB", "Pandas"]
 
 # Class everything 
 
-Continuing from the [previous post](./expense-tracker-pt4.md), we will put the credit card code in it's own class to follow the pattern for the dabase interface. I'm excited about this one as one can get creative when refactoring. 
+Continuing from the [previous post](./expense-tracker-pt4.md), we will put the credit card code in it's own class to follow the pattern for the database interface. I'm excited about this one as one can get creative when refactoring. 
 
 Let's start the class definition. I'll be taking the codename of the card for the database, the string of the filepath and the company that the credit card belongs to. I currently have `chase` and `amex`
 
@@ -50,7 +50,7 @@ def read_chase_cc(fileName):
 ```
 
 
-Everything is the same except for four lines. `new_column` contains a map of the renamed columns. `filtered_csv` makes a copy of the existing csv headers for renaming and only for Chase, we are flipping the amount to keep it consistent. We can create a dict of string and dicts for the headers. Secondly we can create a dict of string to string arrays for renaming the columns after reading the file. I'm going to create the dicsts at the top of the file. We also have some regex going to get the right side of Amex's Category data. 
+Everything is the same except for four lines. `new_column` contains a map of the renamed columns. `filtered_csv` makes a copy of the existing csv headers for renaming and only for Chase, we are flipping the amount to keep it consistent. We can create a dictionary of string and dictionaries for the headers. Secondly we can create a dict of strings to string arrays for renaming the columns after reading the file. I'm going to create the dicts at the top of the file. We also have some regex going to get the right side of Amex's Category data. 
 
 ```python
 card_columns = {"amex": {"Date":"statement_date","Description":"description","Category":"category","Amount":"amount"},
