@@ -11,7 +11,7 @@ I've been using Windows for over 15 years and even worked in IT maintaining PC's
 
 ## Excel 
 
-Your favorite spreadsheet software, used in multiple industries and heavily used in Oil & Gas. When I was at site, which was same time as the {{<link href="./ntfs-save.md">}}flash drive issue,{{</link>}}the one thing that kept us late one day was clicking a million times to download a specific version of Excel that we had purchased a license for. After navigating 365 A LOT, we got it installed. 
+Your favorite spreadsheet software, used in multiple industries and heavily used in Oil & Gas. When I was at site, which was same time as the [flash drive issue](./silent-installs.md), the one thing that kept us late one day was clicking a million times to download a specific version of Excel that we had purchased a license for. After navigating 365 A LOT, we got it installed. 
 
 ## Cue up the Office Deployment Tool
 
