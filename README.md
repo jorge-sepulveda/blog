@@ -2,10 +2,10 @@
 
 How to run this
 
-inside of blog run
+In the root folder run:
 
 ```
-hugo server -t terminal
+hugo serve -t terminal
 ```
 
 To add new content
