@@ -37,7 +37,7 @@ function love.draw()
 end
 ```
 
-And now we have clay bang with a background! Now that I have this on a screen, I have a bigger idea of how big I should draw this clay because this is some pretty precise clicking. Scaled nicely too! 
+And now we have clay bang with a background! Now that I have this on a screen, I have a better idea of how big I should draw these clays because this is some pretty precise clicking. Scaled nicely too! 
 
 ![Clay being is coming close to fruition!](/img/newbackground.png)
 
