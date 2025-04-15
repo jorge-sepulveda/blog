@@ -16,16 +16,16 @@ Currently, I'm using a for loop to scan user input and use the API. The only way
 Google, I love golang a lot. I like the simple keywords and easy readability, but come on! 
 
 Rant over. We'll add `ready` in our main function:
-
-```go
+{{< highlight go "hl_lines=3" >}}
 	var sd core.SaveData
 	var option string
 	var ready = false
-```
+{{< /highlight >}}
+
 
 And now we'll add the for loop of the first scan of inputs. 
 
-```go
+{{< highlight go "linenos=inline, hl_lines=5-19" >}}
 	for {
 		fmt.Scan(&option)
 		fmt.Println("Choose your option, Stranger: ")
@@ -59,7 +59,7 @@ And now we'll add the for loop of the first scan of inputs.
 			break
 		}
 	}
-```
+{{< /highlight >}}
 
 With this added, the user now will now choose Leon or Ada and then you can roll for weapons like normal. The CLI is now ready to handle the new API changes. Now we can start working on the UI. I'll download some of the new JPEGS for Ada's weapons and we'll learn a little bit of Fyne. 
 
