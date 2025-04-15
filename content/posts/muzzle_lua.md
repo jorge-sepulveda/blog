@@ -70,6 +70,7 @@ Muzzle will be called in all the main function after initializing.
 
 It's been fun making clay bang. I can see the vision for adding the intended roguelike elements and maybe some networking involved as well. I recorded some footage of it and published it to Youtube. It's been a lot of learning too! Games are pretty complex sometimes but it's fun when you're making something you like to play. 
 
+Cursor messed up for some reason so I may have to reconsider drawing it.
 
-{{<link href="https://youtu.be/bq32QgWJd9E">}}Cursor messed up for some reason so I may have to reconsider drawing it. {{</link>}}
+{{< youtube bq32QgWJd9E >}}
 
