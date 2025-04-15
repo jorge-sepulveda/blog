@@ -1,5 +1,5 @@
 +++
-title = "Seperate Ways ClI"
+title = "Seperate Ways CLI"
 date = "2025-04-11T10:53:54-05:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 tags = ["Dev", "Golang"]
