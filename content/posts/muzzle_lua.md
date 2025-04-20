@@ -1,5 +1,5 @@
 +++
-title = "Changing cursor and adding sound effects to Clay-Bang"
+title = "Changing the cursor and adding sound effects to Clay-Bang"
 date = "2025-04-09T20:17:30-05:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 tags = ["GameDev", "Lua", "Love2d", "Dev"]
