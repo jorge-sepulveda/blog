@@ -28,7 +28,7 @@ For now, here is a small demo of clay bang, clicking on the pigeons until they j
 
 The redlines are the predicted heights and distances that the pigeon will fly. 
 
-{{<image src="/img/clay-bang.gif" alt="200 hours, there I said it." width="700px" position="center">}}
+{{< youtube bq32QgWJd9E >}}
 
 ### The Resident Evil 4 Pick-A-Gun Service
 
@@ -40,8 +40,7 @@ The service rolls for a weapon, saves/loads from a json and you can make an excl
 
 Easy to use, extensive documentation and even cross compatible. I can easily port this to Windows and make a Web App!
 
-{{<image src="/img/re4new.png" width="700px" position="center">}}
-
+{{< youtube m6WchQVVj88 >}}
 
 ## Research Paper
 
