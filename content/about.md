@@ -6,7 +6,7 @@ title = "About Me"
 
 Howdy!
 
-I'm Jorge Sepulveda and I'm currently a SysAdmin for BXG systems, a control systems integrator in the Oil and Gas industry. I also do work on PLC's with Ladder Logic and HMI development for Rockwell's FactoryTalk products.
+I'm Jorge Sepulveda and I'm currently a Systems Administrator for BXG systems, a control systems integrator in the Oil and Gas industry. I also do work on PLC's with Ladder Logic and HMI development for Rockwell's FactoryTalk products.
 
 Previously, I worked at American Express as a backend developer contributing and maintaining the payment network, all the magic that happens while swiping your card at stores. I led development for support of the UK payments for my specific microservice in the architecture. I worked with SRE to troubleshoot application logs and spent numerous hours with data engineers to ensure our models we're scalable and fitting all of the different regional markets' use cases.
 
