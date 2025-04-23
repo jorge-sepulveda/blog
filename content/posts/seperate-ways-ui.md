@@ -38,15 +38,49 @@ x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x02\x03\x04\xff\xc4\
 03\x00\x02\x02\x02\x03\x01\x01\x00\x00\x00\x01\x11\x021\x12!...
 ```
 
-
 Can you see that it's the top part of the image? Me too!
 
 The bundle command grabs the picture data and turns it into a byte array for easy reconstruction. It even contains the "converted with" text in the header. Pretty nice and sneaky way of embedding data since I needed to convert it from a PNG first. This can then be put in Git and packaged into executables. Pretty handy library.
 
-## Let's add some buttons
-First I need to update my `updateLabels` function. This handles updating the image when you click "roll"
+## Referencing the images
+This was a tricky problem when I was working on Leon's weapons. I need reference the string and then link it to the Fyne Static Resource Object that contains the picture data for rendering. Basically, the string of the weapon selected should control which image gets displayed. Maps came to the rescue here. I created a map of strings and Fyne Static resources. This is why I was ok with having duplicate weapon names in Ada's weapons arrays because it could already reference those images. I added five more in the map. 
 
-{{< highlight go "linenos=inline, hl_lines=1 4" >}}
+{{< highlight go "linenos=inline, hl_lines=22-26" >}}
+var gunMap = map[string]*fyne.StaticResource{
+	"SR-09 R":                  resourceInfiniteRocketLauncherJPEG,
+	"Punisher":                 resourcePunisherJPEG,
+	"Red9":                     resourceRed9JPEG,
+	"Blacktail":                resourceBlacktailJPEG,
+	"Matilda":                  resourceMatildaJPEG,
+	"Sentinel Nine":            resourceSentinelNineJPEG,
+	"W-870":                    resourceW870JPEG,
+	"Riot Gun":                 resourceRiotGunJPEG,
+	"Striker":                  resourceStrikerJPEG,
+	"Skull Shaker":             resourceSkullShakerJPEG,
+	"SR M1903":                 resourceSRM1903JPEG,
+	"Stingray":                 resourceStingrayJPEG,
+	"CQBR Assault Rifle":       resourceCQBRAssaultRifleJPEG,
+	"Broken Butterfly":         resourceBrokenButterflyJPEG,
+	"Killer7":                  resourceKiller7JPEG,
+	"TMP":                      resourceTMPJPEG,
+	"LE 5":                     resourceLE5JPEG,
+	"Handcannon":               resourceHandcannonJPEG,
+	"Infinite Rocket Launcher": resourceInfiniteRocketLauncherJPEG,
+	"Chicago Sweeper":          resourceChicagoSweeperJPEG,
+	"Blast Crossbow":           resourceBlastCrossbowJPEG,
+	"Sawed-off W-870":          resourceSawedOffW870JPEG,
+	"Blacktail AC":             resourceBlackTailACJPEG,
+	"Punisher MC":              resourcePunisherMCJPEG,
+	"Black":                    resourceBlackJPEG,
+}
+{{< /highlight >}}
+
+Once this was in place the `updateLabels` function takes care of the rest. Anytime a new weapon is rolled it gets the resource from the map and then it loads the image. I added a black image for some safety to avoid memory violations(getting c++ segfault flashbacks). Now that we're waiting from input wether Leon or Ada will get picked, I need to "prime" the image resource by loading a default black image. I should change this to a gray background instead and make it "invisible."
+
+## Let's add some buttons
+First I need to update my `updateLabels` function. This handles updating the image when you click "roll." 
+
+{{< highlight go "linenos=inline, hl_lines=1 4-5" >}}
 func updateLabels(g *widget.Label, c *widget.Label, p *widget.Label, gi *canvas.Image, sd *core.SaveData) {
 	c.SetText(fmt.Sprintf("Current Chapter: %d", sd.CurrentChapter))
 	g.SetText(fmt.Sprintf("Current Gun: %s", sd.CurrentGun))
