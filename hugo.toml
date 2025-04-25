@@ -4,6 +4,8 @@ languageCode = "en-us"
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
 
+[permalinks]
+  posts = "/posts/:slug/"
 
 [pagination]
   disableAliases = false
