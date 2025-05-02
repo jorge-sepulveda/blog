@@ -6,14 +6,6 @@ title = "Portfolio"
 
 Out of the hundreds of stale repos I have from school, I will display the recent projects I've been working on in the past year. Sorry React, those old school projects won't be displayed here.
 
-### Python Expense Tracker built with DuckDB
-
-I'm currently saving for a house and decided to start budgeting. I navigated my credit cards and checking account websites and thought this was a lot. This project was born as an effort to consolidate that data and track my budget extensively using the downloadable CSV's. Using DuckDB, a brand new database released last year and optimized for analytical queries, I have built an expense tracker with additional plans for tracking Checking Account Data and graphs. 
-
-This is a small example of where the project is right now using fake data. I'm using plotly to stack all the categories of individual cards transactions. Now I can determine if eating out is the cause of my problems(I don't think so).
-
-{{<image src="/img/graph.png" width="800px" position="center">}}
-
 ### Clay Bang
 
 Dipping my toes into Game Development here. I love skeet shooting but I've only done it like 5 times. What if I want to make my own roguelike skeet shooting game and have the fun at home?
@@ -41,6 +33,14 @@ The service rolls for a weapon, saves/loads from a json and you can make an excl
 Easy to use, extensive documentation and even cross compatible. I can easily port this to Windows and make a Web App!
 
 {{< youtube m6WchQVVj88 >}}
+
+### Python Expense Tracker built with DuckDB
+
+I'm currently saving for a house and decided to start budgeting. I navigated my credit cards and checking account websites and thought this was a lot. This project was born as an effort to consolidate that data and track my budget extensively using the downloadable CSV's. Using DuckDB, a brand new database released last year and optimized for analytical queries, I have built an expense tracker with additional plans for tracking Checking Account Data and graphs. 
+
+This is a small example of where the project is right now using fake data. I'm using plotly to stack all the categories of individual cards transactions. Now I can determine if eating out is the cause of my problems(I don't think so).
+
+{{<image src="/img/graph.png" width="800px" position="center">}}
 
 ## Research Paper
 
