@@ -51,14 +51,14 @@ Tuxera maintains a package for safely reading NTFS drives called `ntfs-3g`. This
 $ sudo pacman -S ntfs-3g
 ```
 
-We now have ntfs supported in userspace. Technically ntfs3 is supported in the kernel but I didn't wanna go messing with the way I read devices to make it happen when a package can take care of this for me. Now it's easy as creating the mountpoint and mounting. 
+We now have ntfs supported in userspace. Technically ntfs3 is supported in the kernel but I didn't wanna go messing with the way I read devices to make it happen when a package can take care of this for me. Now it's easy as creating the mount point and mounting. 
 
 ```sh
 $ sudo mkdir /mnt/windowsdrive/
 $ sudo mount -t ntfs-3g /dev/sdc4 /mnt/windowsdrive
 ```
 
-And I now have access to my windows files, saving myself a lot of headaches. Once I'm done looking at files, I can unmount the drive for safe removal. I'm willing to bet that the drive will mount normally when connecting via usb since ntfs will get auto detected.
+And I now have access to my windows files, saving myself a lot of headaches. Once I'm done looking at files, I can unmount the drive for safe removal. Doing this in Dolphin works too, you'll just need your admin password since it was mounted from the shell.
 
 
 ```sh
