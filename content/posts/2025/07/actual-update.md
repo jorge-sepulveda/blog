@@ -30,7 +30,7 @@ I have built the following graphs with some at a glance spending reports for eas
 
 And for a really big tabular view, Actual also provides that.
 
-{{<image src="/img/actual-update/reports.png" position="center">}}
+{{<image src="/img/actual-update/Reports.png" position="center">}}
 
 You're seeing what I think is my favorite part, the privacy filter! You can keep the amounts hidden in case you're doing your finances in public. When you hover your mouse over it, the amount will show. 
 
