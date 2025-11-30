@@ -34,14 +34,6 @@ Easy to use, extensive documentation and even cross compatible. I can easily por
 
 {{< youtube m6WchQVVj88 >}}
 
-### Python Expense Tracker built with DuckDB
-
-I'm currently saving for a house and decided to start budgeting. I navigated my credit cards and checking account websites and thought this was a lot. This project was born as an effort to consolidate that data and track my budget extensively using the downloadable CSV's. Using DuckDB, a brand new database released last year and optimized for analytical queries, I have built an expense tracker with additional plans for tracking Checking Account Data and graphs. 
-
-This is a small example of where the project is right now using fake data. I'm using plotly to stack all the categories of individual cards transactions. Now I can determine if eating out is the cause of my problems(I don't think so).
-
-{{<image src="/img/graph.png" width="800px" position="center">}}
-
 ## Research Paper
 
 Link to ISPRS Archives: https://isprs-archives.copernicus.org/articles/XLIV-M-2-2020/95/2020/
