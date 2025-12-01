@@ -16,8 +16,6 @@ I know that's a lot of varied skills in cybersecurity, control systems and devel
 
 I have a B.A in Computing from Texas A&M University with a specialization in Geographic Information Systems(GIS). To summarize that, I'm a big computer nerd who likes maps. 
 
-Fun fact: I'm averaging 2:50.629 on my Rubik's Cube Solves. 
-
 Resume:
 - {{<link href="/assets/Jorge_Sepulveda_Resume.pdf">}}PDF(Accurate as of December 2025){{</link>}}
 
