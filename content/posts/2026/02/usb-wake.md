@@ -1,5 +1,5 @@
 +++
-title = "Defeating the demons haunting my motherboard"
+title = "Slaying the demons haunting my motherboard"
 date = "2026-02-04T21:15:07-06:00"
 tags = ["SysAdmin"]
 slug = "usbwake"
@@ -14,9 +14,9 @@ A couple of days ago, I was disconnecting a USB hub with peripherals and there's
 
 ## Trusty ol' motherboard
 
-I'm using an Asrock z97 extreme4...yes it's still using DDR3, yes I know it's old, and it doesn't have a TPM module either. Microslop said that I don't deserve Windows 11 and that they would forgive if me if I purchased a new PC. Now I'm using Manjaro because I DECIDE when I stop using my PC equipment. 
+I'm using an Asrock Z97 Extreme4...yes it's still using DDR3, yes I know it's old, and it doesn't have a TPM module either. Microslop said that I don't deserve Windows 11 and that they would forgive if me if I purchased a new PC. Now I'm using Manjaro because I DECIDE when I stop using my PC equipment. 
 
-I booted into the settings and found the Deep Sleep settings in the motherboard settings, and that was the culprit all these years. Deep Sleep(also called Energy related Products Directive) had different states for providing power to ports. This would leave all my peripherals on in case I need to charge my phone while my PC is turned off... time to fix that. 
+I booted into the settings and found the Deep Sleep settings in my BIOS, and that was the culprit all these years. Deep Sleep(also called Energy related Products Directive for you British readers) had different states for providing power to ports. This would leave all my peripherals on in case I need to charge my phone while my PC is turned off... time to fix that. 
 
 So I enabled it in both S4 and S5 and I have defeated a longtime enemy. I unplugged the usb hub and no power, just quiet. 
 
