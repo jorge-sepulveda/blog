@@ -27,7 +27,7 @@ I thought about giving Fusion a try but something different came along, somethin
 
 ## The problem
 
-The dishwasher in our new apartment is kinda small for it's size, causing the dishwasher to either move side to side or tip over if you pulled it. There are usually metal tabs on top but what about the sides? Something must be done, must be printed...let's get cracking.
+The dishwasher in our new apartment is kinda small for it's size, causing the dishwasher to either move side to side or tip over if you pulled it. There are usually metal tabs on top but what about the sides? Something must be done, something... must be printed...let's get cracking.
 
 ### The approach
 
@@ -49,7 +49,8 @@ union() {
 
 ## The result..inconclusive.
 
-I had pushed this into the sides of the dishwasher and it solved the side-to-side swaying...until I loaded it and pulled it, tabs too. The beauty of having the printer is that I can try new designs and iterate until I get it right!
+I had pushed this into the sides of the dishwasher and it solved the side-to-side swaying...until I loaded it and pulled it, tabs too. I think what I really need is a bracket...more to follow. 
+
 
  
 
