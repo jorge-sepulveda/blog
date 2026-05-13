@@ -4,44 +4,43 @@ date = "2026-05-12T22:10:43-05:00"
 slug = "upgrade-gcp-drive"
 tags = ["GCP", "PowerShell", "SysAdmin"]
 keywords = ["", ""]
-draft=true
 readingTime = true
 +++
 
-## It's drivin' me crazy
+## Google, you are drivin' me crazy
 
 It has been fun running systems across three different cloud environments. 
-Each one has it's own nuance making me learn one thing three different times. 
-The most recent fun has been managing disks for Virtual Machines. 
+Each one has their own nuance making me learn one thing three different times. 
+The most recent fun has been managing disks for virtual machines. 
 
-I needed to upgrade some of our servers' hard drives to solid state drives to fix some disk bottlenecks. 
+I need to upgrade some of our servers' hard drives to solid state drives to fix some disk bottlenecks. Yes, even the cloud can provision both hard drives and solid state drives if your heart desires.
+
 AWS was by far the cleanest, gold star. You don't even need to turn off the VM, they'll upgrade it for you live, no downtime. 
 Azure ranks second place here, I only need to turn off the VM to upgrade the disk in place. No big deal.
 
 Google is the worst offender here. 
-You need to turn off the VM, clone the disks to a new upgraded drive and then swap the drives by detaching the old drive and attach the new drive with the same settings. 
+I need to turn off the VM, clone the disks to a new upgraded drive and then swap the drives by detaching the old drive and attach the new drive with the same settings. 
 Come on Google, AWS figured out how to swap parts while driving the car, Azure needs a pit stop, but this.. your design choice was to make me stop and reassemble it? 
 
-Nuance aside, this felt the most nostalgic. Back in my first IT job I would pull a machine, clone the hard drive using those two bay drive docks and then replace the drive to complete the upgrade. That's right, my first IT job didn't even have SCCM, we we're barely lucky enough to get a drive bay. 
+Nuance aside, this felt the most nostalgic. Back in my first IT job I would pull a machine, clone the hard drive using those two bay drive docks and then replace the drive to complete the upgrade. That's right, we didn't have SCCM, we we're barely lucky enough to get that drive bay to avoid USB installs. 
 
-Nostalgia aside, being pulled back in time to manage infrastructure isn't a great feeling in itself. 
+Nostalgia aside, being pulled back in time to manage the server isn't a great feeling in itself. 
 
 ## The plan
 
-Rant over, let's test this.
 **I need to turn off the virtual machine, clone the existing drive as an ssd, swap the drives and then turn the VM back on.**
-We'll be using the GCP Powershell module but you also have the option to use the cloud shell module in case you want to run this in the browser.
+I'll be using the GCP Powershell module. Once it's go time, I'll use the cloud shell to avoid any network issues from my device.
 
-Once it's downloaded, authenticate and talk to your project via `gcloud init` and we are good to go.
 
-For this exercise, I've created a dummy Windows Server with an extra D drive and I'll swap it for an ssd drive since this is what I need to do on the production server. I'm expecting the new drive to just swap in without configuration and to make doubly sure, this ISO of Ubuntu should be on the new disk upon rebooting.
+For this exercise, I've created a dummy Windows Server with an extra D drive and I'll swap it for an ssd drive. This will mimic my production server. I'm expecting the new drive to just swap in without configuration and to make doubly sure, this ISO of Ubuntu should be on the new disk upon rebooting. If I need to use Disk Management to fix something, that's bad for me.
+
+I'll add the screenshots for what its supposed to look like in the console as I go along. 
 
 {{<image src="/img/2026/05/upgrade-gcp-drives/0.5.png" width="700px" position="center">}}
 
 
 {{<image src="/img/2026/05/upgrade-gcp-drives/0.6.png" width="700px" position="center">}}
 
-I'll add the screenshots for what its supposed to look like in the console as we go along. 
 
 ### 1. Stop the Virtual Machine
 
@@ -68,8 +67,8 @@ Creating snapshot(s) testing-before-prod...done.
 {{<image src="/img/2026/05/upgrade-gcp-drives/2.png" width="700px" position="center">}}
 ### 3. Clone the drive 
 
-Using that snapshot we'll create a new drive as an ssd. 
-This is another one if those "grab a coffee moments." Make note of that "in use by" too. My VM is still pointing at `temporary-d`
+Using that snapshot we'll create a new drive as an SSD. 
+This is another one if those "grab a coffee moments." Make note of that `in use by` too. My VM is still pointing at `temporary-d`
 ```powershell
 gcloud compute disks create 'temporary-d-ssd' `
   --source-snapshot='testing-before-prod' `
@@ -96,10 +95,11 @@ gcloud compute instances detach-disk 'jorge-testing' `
 ### 5. Attach the new drive
 
 aaaaand now we'll attach the new drive.
-This is a big part. There is a field called the `device-name` which is id used to identifying these persistent disks. 
+This is a big part. There is a field called the `device-name` which is an id used by GCP to identify persistent disks attached to virtual machines.
+
 In order for Windows to see the "same device" we need to make sure that the `device-name` of the new disk we are attaching has the same name as the old one. 
-When I set up the server, I named it `the-temp-d` but you can also run `gcloud compute instances describe` to get the same info. 
-This is also handy when you have a handful of disks attached. 
+When I set up the server, I named it `the-temp-d` when creating the VM but I also ran `gcloud compute instances describe` to get the same info. 
+This is handy when you have a handful of disks attached and you need to make sure you're looking at the right one. 
 
 ```powershell
 gcloud compute instances attach-disk 'jorge-testing' `
@@ -109,6 +109,7 @@ gcloud compute instances attach-disk 'jorge-testing' `
 ```
 
 {{<image src="/img/2026/05/upgrade-gcp-drives/5.png" width="700px" position="center">}}
+
 ### 6. Restart the VM
 
 Start the VM and try to either SSH or RDP into the server and bam! We have successfully replaced the boot disk. 
@@ -120,8 +121,11 @@ Starting instance(s) jorge-testing...done.
 
 Look at the VM one more time and there's our image! We have swapped out the drive for the SSD all quietly and such. 
 
+{{<image src="/img/2026/05/upgrade-gcp-drives/6.png" width="700px" position="center">}}
 
-At first it felt a little like open heart surgery, but a couple of runs and you feel comfy with it. Now if something goes horribly wrong doing this in production...well, I guess the fix would be in another post, huh?
+
+At first it felt a little like open heart surgery, but after several runs this will be a much simpler fix. I just need downtime for the time it takes to snapshot and clone the drives...I hope that's fast. 
+Now if something goes horribly wrong doing this in production...well, I guess the fix would be in another post, huh?
 
 Until next time!
 
